@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Json date reader</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body class="bg-secondary">
+<div class="bg-dark rounded contentDiv">
+    <h1 class="text-light mt-2">Json diagram reader</h1>
+<hr class="border border-light">
+
+    <div class="button-div">
+        <button id="load-button" class="btn btn-outline-info">Download data</button>
+        <button id="reset-button" class="btn btn-outline-info">Reset data</button>
+        <button id="column-diagram" class="btn btn-outline-info">Bar chart</button>
+        <button id="circle-diagram" class="btn btn-outline-info">Pie chart</button>
+    </div>
+    <div id="view-box">
+        <canvas id="canvas" width="900" height="500">
+            Your browser doesn`t support Canvas
+        </canvas>
+        <div style="display: none">
+            <img id="logo" src="asserts/img/logo.png" alt="">
+        </div>
+    </div>
+    <!-- Loaded data -->
+    <div class="data-view">
+        <section>
+            <h5>Data view</h5>
+            <hr>
+            <table class="table table-dark table-striped table-bordered">
+                <thead>
+                <tr>
+                    <th>Measurement date </th>
+                    <th>Measurement data </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <!-- Placeholder -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/Controller.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

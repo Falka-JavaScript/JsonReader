@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.contentDiv{
+    width:70%;
+    min-height: 95vh;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.data-view{
+    display: flex;
+    justify-content: center;
+}
+

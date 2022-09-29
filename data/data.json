@@ -1,0 +1,39 @@
+{
+  "name": "Temperature sensor data",
+  "results":[{
+    "MeasurementDate": "2022-09-28T06:45:00Z",
+    "temperature": -13
+  },{
+    "MeasurementDate": "2022-09-28T10:45:00Z",
+    "temperature": -8
+  },{
+    "MeasurementDate": "2022-09-28T14:45:00Z",
+    "temperature": -5
+  },{
+    "MeasurementDate": "2022-09-28T20:45:00Z",
+    "temperature": -9
+  },{
+    "MeasurementDate": "2022-09-29T04:45:00Z",
+    "temperature": -12
+  },{
+    "MeasurementDate": "2022-09-29T06:45:00Z",
+    "temperature": -19
+  }
+  ,{
+    "MeasurementDate": "2022-09-29T10:45:00Z",
+    "temperature": -17
+  },{
+    "MeasurementDate": "2022-09-29T14:45:00Z",
+    "temperature": -12
+  },{
+    "MeasurementDate": "2022-09-29T20:45:00Z",
+    "temperature": -10
+  },{
+    "MeasurementDate": "2022-09-30T04:45:00Z",
+    "temperature": -19
+  },{
+      "MeasurementDate": "2022-09-30TT6:45:00Z",
+      "temperature": -21
+    }
+  ]
+}
